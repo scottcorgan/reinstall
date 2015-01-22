@@ -1,6 +1,6 @@
 {
   "name": "reinstall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reinstall package's node modules without cache",
   "main": "index.js",
   "bin": {

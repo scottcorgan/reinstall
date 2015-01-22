@@ -13,7 +13,7 @@ spawn('rm', ['-rf', 'node_modules'])
     spawn('npm', ['cache', 'clean'])
       .on('close', function () {
         
-        console.log('Install dependencies ...');
+        console.log('Installing dependencies ...');
         
         spawn('npm', ['install'])
           .on('close', function () {
