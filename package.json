@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/scottcorgan/reinstall",
   "dependencies": {
-    "cross-spawn": "^0.2.3"
+    "cross-spawn": "^0.2.3",
+    "rimraf": "^2.5.4"
   }
 }
