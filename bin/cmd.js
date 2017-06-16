@@ -8,7 +8,7 @@ console.log('\nRemoving node_modules directory ...');
 rimraf('node_modules', {}, function () {
     console.log('Cleaning NPM cache ..');
     
-    spawn('npm', ['cache', 'clean'], { stdio: ['pipe', 'pipe', process.stderr] })
+    spawn('npm', ['cache', 'clean', '--force'], { stdio: ['pipe', 'pipe', process.stderr] })
       .on('close', function () {
         
         console.log('Installing dependencies ...');
